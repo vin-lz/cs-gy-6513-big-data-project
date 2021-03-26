@@ -26,3 +26,4 @@ https://github.com/ncydexter/Air-Quality-Improvement-under-COVID-Visualized
 
 7. in Singapore dataset, miss 898 cells of no2, miss 176 cells of co, howerver has 1427 cells of psi, which other city's datasets don't have, therefore decide to exclude entirely.
 
+8. in seoul dataset, about 150 rows of data missing pm2.5, they are mostly from year 2014, therefore I deleted those 150 rows. If you think that could create bias please roll back. 
