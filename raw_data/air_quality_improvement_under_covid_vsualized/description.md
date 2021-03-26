@@ -22,8 +22,8 @@ https://github.com/ncydexter/Air-Quality-Improvement-under-COVID-Visualized
 
 5. in London dataset, from 2014/10/22 - 2014/11/24, missing o3 and no2, haven't decided how to handle
 
-6. in Paris dataset, miss 1665 cells of so2, miss 662 cells of co, therefore decide to exclude entirely.
+6. in seoul dataset, about 150 rows of data missing pm2.5, they are mostly from year 2014, therefore I deleted those 150 rows. If you think that could create bias please roll back. 
 
-7. in Singapore dataset, miss 898 cells of no2, miss 176 cells of co, howerver has 1427 cells of psi, which other city's datasets don't have, therefore decide to exclude entirely.
+7. in Paris dataset, miss 1665 cells of so2, miss 662 cells of co, therefore decide to exclude entirely.
 
-8. in seoul dataset, about 150 rows of data missing pm2.5, they are mostly from year 2014, therefore I deleted those 150 rows. If you think that could create bias please roll back. 
+8. in Singapore dataset, miss 898 cells of no2, miss 176 cells of co, howerver has 1427 cells of psi, which other city's datasets don't have, therefore decide to exclude entirely.
