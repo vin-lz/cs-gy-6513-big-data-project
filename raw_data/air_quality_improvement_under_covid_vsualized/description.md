@@ -16,5 +16,6 @@ https://github.com/ncydexter/Air-Quality-Improvement-under-COVID-Visualized
 
 2. pad 0 for all blank cells of SO2
 
-3. I want to use Mean substitution to fill in missing value of pm25, pm10, but I don't know how to calculate three day moving average with OpenRefine...
+3. in Beijing dataset, I want to use Mean substitution to fill in missing value of pm25, pm10, but I don't know how to calculate three day moving average with OpenRefine...
 
+4. in Shanghai dataset, missing 99 o3 values, haven't decided how to handle - pad zero or mean substitution
