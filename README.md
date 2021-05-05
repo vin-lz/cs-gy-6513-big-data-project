@@ -1,6 +1,7 @@
 # CS-GY 6513 Big Data Project
 
 ## Project Participants:
+
 ### Group 10
 - Vin Liu
 - Lillian Zhang
@@ -42,14 +43,17 @@ During the analysis, we did further data wrangling to assist our analysis in [De
 
 We created heatmaps, treemaps and bar charts for each selected city to explore the datasets. They are put into individual `${city}_visual_generated` directories. The detailed analysis is in the Project Report.
 
+## Deliverables
+
+The Project Report can be found in the `deliverables` directory.
+
 ## How to Reproduce
 
-All the steps done in OpenRefine and Deepnote are documented in the Project Report.
-To run the python code, please access the following `.ipynb` files in Deepnote:
+All the steps done in OpenRefine and Deepnote are documented in the Project Report. To run the python code, please access the following `.ipynb` files in Deepnote:
 - For data cleaning: [https://deepnote.com/project/Big-Data-Project-Group10-c7oq5BK8RFShmz6Y2ShH8w/%2Fdata_cleaning_code.ipynb](https://deepnote.com/project/Big-Data-Project-Group10-c7oq5BK8RFShmz6Y2ShH8w/%2Fdata_cleaning_code.ipynb)
 - For data visualization: [https://deepnote.com/project/Big-Data-Project-Group10-c7oq5BK8RFShmz6Y2ShH8w/%2Fdata_visualization_code.ipynb](https://deepnote.com/project/Big-Data-Project-Group10-c7oq5BK8RFShmz6Y2ShH8w/%2Fdata_visualization_code.ipynb)
 
-The `.ipynb` notebooks rely on `python 3.7`, `numpy 1.19.5` and `pandas 1.2.4`.
+The `.ipynb` notebooks rely on `python 3.7`, `numpy 1.19.5`, `pandas 1.2.4`, `seaborn 0.11.1`, `matplotlib 3.4.1` and `squarify 0.4.3`.
 
 ## Datasets Used
 Air Quality Open Data PlatformWorldwide COVID-19 dataset: [https://aqicn.org/data-platform/covid19/](https://aqicn.org/data-platform/covid19/)
